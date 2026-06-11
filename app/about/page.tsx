@@ -1,7 +1,15 @@
-import React from "react";
+import AboutHero from "@/components/about/AboutHero";
+import Journey from "@/components/about/Journey";
+import BeyondCode from "@/components/about/BeyondCode";
 
-const page = () => {
-  return <div>About Me</div>;
-};
+function AboutPage() {
+  return (
+    <main className="pt-28">
+      <AboutHero />
+      <Journey />
+      <BeyondCode />
+    </main>
+  );
+}
 
-export default page;
+export default AboutPage;
